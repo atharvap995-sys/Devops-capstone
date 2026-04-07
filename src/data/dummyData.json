@@ -1,0 +1,146 @@
+{
+  "home": {
+    "hero": {
+      "titleStart": "Reserve Your",
+      "titleHighlight": "Bus Tickets",
+      "titleEnd": "Now",
+      "description": "Find and book your bus tickets with just a few clicks. We offer a wide range of routes with schedules to suit your needs.",
+      "ctaText": "Reserve Seat Now",
+      "backgroundImage": "bg1",
+      "heroBusImage": "bus"
+    },
+    "searchForm": [
+      { "label": "From", "value": "", "placeholder": "Select a location" },
+      { "label": "To", "value": "", "placeholder": "Select a location" },
+      { "label": "Choose Date", "value": "11/03/2026", "placeholder": "mm/dd/yyyy" },
+      { "label": "Choose Time", "value": "13", "placeholder": "--:-- --" },
+      { "label": "Total Seat", "value": "2", "placeholder": "Enter total seat" }
+    ],
+    "categories": [
+      { "id": 1, "image": "bus1", "name": "Tourist Bus" },
+      { "id": 2, "image": "bus2", "name": "Luxury Bus" },
+      { "id": 3, "image": "bus3", "name": "Sleeper Bus" }
+    ],
+    "offers": [
+      {
+        "id": 1,
+        "title": "Get upto 40% off on bus booking",
+        "coupon": "GTECH08",
+        "validity": "Valid till 31st March"
+      },
+      {
+        "id": 2,
+        "title": "Get upto 40% off on bus booking",
+        "coupon": "GTECH08",
+        "validity": "Valid till 31st March"
+      }
+    ]
+  },
+  "busListing": {
+    "filters": {
+      "searchPlaceholder": "Search bus",
+      "types": ["Choose Bus Type", "Tourist Bus", "Luxury Bus"]
+    },
+    "buses": [
+      { "id": 1, "name": "Tourist Bus", "type": "tourist", "seats": 40, "image": "bus4" },
+      { "id": 2, "name": "Luxury Bus", "type": "luxury", "seats": 40, "image": "bus1" },
+      { "id": 3, "name": "Tourist Bus", "type": "tourist", "seats": 40, "image": "bus2" },
+      { "id": 4, "name": "Sleeper Bus", "type": "sleeper", "seats": 40, "image": "bus3" },
+      { "id": 5, "name": "Luxury Bus", "type": "luxury", "seats": 40, "image": "bus5" },
+      { "id": 6, "name": "Tourist Bus", "type": "tourist", "seats": 40, "image": "bus6" }
+    ]
+  },
+  "seatSelection": {
+    "pricingRules": {
+      "default": 800,
+      "tourist": 800,
+      "luxury": 1000,
+      "sleeper": 900
+    },
+    "bus": {
+      "name": "Luxury Bus",
+      "type": "luxury",
+      "plate": "Bus Number Plate#",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quod, lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "image": "bus7",
+      "from": "Location01",
+      "to": "Location5",
+      "leavingAt": "04:00 AM",
+      "price": 3000,
+      "currency": "Rs.",
+      "selectedSeats": [1, 13, 25]
+    },
+    "legend": [
+      { "label": "Available", "status": "available" },
+      { "label": "Booked", "status": "booked" },
+      { "label": "Selected", "status": "selected" }
+    ],
+    "seats": [
+      { "number": 1, "status": "selected" },
+      { "number": 2, "status": "booked" },
+      { "number": 3, "status": "available" },
+      { "number": 4, "status": "available" },
+      { "number": 5, "status": "booked" },
+      { "number": 6, "status": "available" },
+      { "number": 7, "status": "available" },
+      { "number": 8, "status": "available" },
+      { "number": 9, "status": "available" },
+      { "number": 10, "status": "booked" },
+      { "number": 11, "status": "available" },
+      { "number": 12, "status": "available" },
+      { "number": 13, "status": "selected" },
+      { "number": 14, "status": "available" },
+      { "number": 15, "status": "booked" },
+      { "number": 16, "status": "available" },
+      { "number": 17, "status": "available" },
+      { "number": 18, "status": "available" },
+      { "number": 19, "status": "booked" },
+      { "number": 20, "status": "available" },
+      { "number": 21, "status": "available" },
+      { "number": 22, "status": "booked" },
+      { "number": 23, "status": "available" },
+      { "number": 24, "status": "available" },
+      { "number": 25, "status": "selected" },
+      { "number": 26, "status": "available" },
+      { "number": 27, "status": "available" },
+      { "number": 28, "status": "booked" },
+      { "number": 29, "status": "available" },
+      { "number": 30, "status": "available" },
+      { "number": 31, "status": "booked" },
+      { "number": 32, "status": "available" },
+      { "number": 33, "status": "available" },
+      { "number": 34, "status": "booked" },
+      { "number": 35, "status": "available" },
+      { "number": 36, "status": "available" },
+      { "number": 37, "status": "available" },
+      { "number": 38, "status": "available" },
+      { "number": 39, "status": "booked" },
+      { "number": 40, "status": "available" }
+    ]
+  },
+  "checkout": {
+    "passengerFields": [
+      { "name": "Fullname", "placeholder": "e.g. G-Tech Official", "hint": "" },
+      { "name": "Email Address", "placeholder": "e.g. gtech.official08@gmail.com", "hint": "You will get ticket via this email address" },
+      { "name": "Phone", "placeholder": "e.g. +1 234 567 890", "hint": "" },
+      { "name": "Alternative Phone", "placeholder": "e.g. +1 432 576 890", "hint": "" }
+    ],
+    "bookingStatus": {
+      "title": "Your Booking Status",
+      "destinationLabel": "Your Destination",
+      "from": "Location 1",
+      "to": "Location 4",
+      "arriveAt": "4:00 PM",
+      "departAt": "3:50 PM",
+      "totalSeats": 10,
+      "driverSide": "Driver side",
+      "totalAmount": 5000,
+      "currency": "Rs."
+    },
+    "support": {
+      "title": "Support",
+      "description": "Need route help? Contact reservations support anytime.",
+      "address": "123 Main Street, Anytown, USA"
+    }
+  }
+}
